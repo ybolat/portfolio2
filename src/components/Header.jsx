@@ -21,7 +21,7 @@ const Header = () => {
         return () => {
             clearInterval(typeWord)
         }
-    }, [text]);
+    }, [text, typingPeriod]);
 
     const typingFunc = () => {
         let i = wordNumber % wordLoopRu.length;

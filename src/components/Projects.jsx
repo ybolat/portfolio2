@@ -3,6 +3,8 @@ import project1Photo1 from "../assets/images/project1-photo1.png";
 import project1Photo2 from "../assets/images/project1-photo2.png";
 import project2Photo1 from "../assets/images/project2-photo1.png";
 import project2Photo2 from "../assets/images/project2-photo2.png";
+import project3Photo1 from "../assets/images/project3-photo1.png";
+import project3Photo2 from "../assets/images/project3-photo2.png";
 import ProjectDetailsModal from "./ProjectDetailsModal";
 import reactIcon from '@iconify/icons-logos/react';
 import jsIcon from '@iconify/icons-logos/javascript';
@@ -10,6 +12,8 @@ import reduxIcon from '@iconify/icons-logos/redux';
 import reduxSagaIcon from '@iconify/icons-logos/redux-saga';
 import tsIcon from '@iconify/icons-logos/typescript-icon';
 import tailwindCss from '@iconify/icons-logos/tailwindcss-icon';
+import nextIcon from "@iconify-icons/devicon/nextjs";
+import framerMotionIcon from "@iconify-icons/devicon/framermotion";
 
 export const resumeProjects = [
     {
@@ -63,6 +67,29 @@ export const resumeProjects = [
             {
                 "class": reduxIcon,
                 "name": "Redux ToolKit | RTK Query"
+            }
+        ]
+    },
+    {
+        "title": "Anime list",
+        "description": "Список самых популярных аниме. Тут вы сможете посмотреть рейтинг аниме, количество серии и тип аниме.",
+        "images": [
+            project3Photo1,
+            project3Photo2
+        ],
+        "url": "https://next-anime-list-foianrsgk-ybolat.vercel.app",
+        "technologies": [
+            {
+                "class": nextIcon,
+                "name": "Next 14"
+            },
+            {
+                "class": framerMotionIcon,
+                "name": "Framer Motion"
+            },
+            {
+                "class": tailwindCss,
+                "name": "Tailwind CSS"
             }
         ]
     }
