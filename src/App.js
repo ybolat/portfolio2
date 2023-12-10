@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.scss";
+import Header from "./components/Header";
+import About from "./components/About";
+import Projects from "./components/Projects";
+import Skill from "./components/Skill";
+import Experience from "./components/Expirence";
+import Footer from "./components/Footer";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+const App = () => {
+
+    return <div>
+        <Header/>
+        {/*<div className="col-md-12 mx-auto text-center language">*/}
+        {/*    <div style={{display: "inline"}}>*/}
+        {/*        <Icon icon={'twemoji-flag-for-flag-russia'} className="iconify language-icon me-5"/>*/}
+        {/*    </div>*/}
+        {/*    <div style={{display: "inline"}}>*/}
+        {/*        <Icon icon={'twemoji-flag-for-flag-united-kingdom'} className={"iconify language-icon"}/>*/}
+        {/*    </div>*/}
+        {/*</div>*/}
+        <About/>
+        <Projects/>
+        <Skill/>
+        <Experience/>
+        <Footer/>
     </div>
-  );
 }
 
 export default App;
