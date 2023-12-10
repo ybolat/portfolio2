@@ -77,7 +77,7 @@ export const resumeProjects = [
             project3Photo1,
             project3Photo2
         ],
-        "url": "https://next-anime-list-foianrsgk-ybolat.vercel.app",
+        "url": "https://next-anime-list-ybolat.vercel.app/",
         "technologies": [
             {
                 "class": nextIcon,
