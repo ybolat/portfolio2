@@ -3,7 +3,7 @@ import laptopCode from '@iconify-icons/la/laptop-code';
 import {useEffect, useState} from "react";
 
 const period = 200;
-const wordLoopRu = ["Вэб Разработчик ", "Инженер ПО ", "Фронтенд Разработчик "];
+const wordLoopRu = ["Веб Разработчик ", "Инженер ПО ", "Фронтенд Разработчик "];
 
 const Header = () => {
 
